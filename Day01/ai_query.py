@@ -4,9 +4,9 @@ response=ollama.chat(
     messages=[
         {
             "role":"user",
-            "content":"only types of AI"
+            "content":"only main two types of AI"
         }
         
     ]
 )
-print(response["message"]["content"]) 
+print(response["message"]["content"])
